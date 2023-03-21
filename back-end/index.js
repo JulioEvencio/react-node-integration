@@ -1,8 +1,10 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 const port = 5000
 
 app.use(express.json())
+app.use(cors())
 
 let news = [
 	{id: '1', title: 'News 1', slug: 'new-1', body: 'My body 1'},
