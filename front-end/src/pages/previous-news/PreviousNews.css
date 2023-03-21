@@ -1,0 +1,9 @@
+.previous-news {
+    width: 100%;
+    padding: 20px 10px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.previous-news h2 {
+    text-decoration: underline;
+}
